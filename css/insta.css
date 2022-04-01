@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Pattaya&family=Press+Start+2P&display=swap');
+
 body{
     justify-content: center;
     min-height: 100vh;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(182, 73, 233);
+}
+
+.logofont{
+    text-align: center;
+    font-family:'Pattaya', sans-serif;
+    color: rgb(182, 73, 233)
+
+}
+
+.autor{
+    text-align: center;
+    color: rgb(136, 88, 0);
+    font-size: large;
+}
+.nome{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+}
+
+.descricao{
+    font-size: large;
+    text-align: center;
+    color: rgb(0, 110, 255);
 }
 
 .instagram{
