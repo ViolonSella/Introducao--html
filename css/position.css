@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+div{
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+
+}
+
+.container{
+    background: grey;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    position: relative; /* por padrão a posição é estática(static)/*
+    /* torna a posição do objeto relativa ao corpo*/
+}
+
+#teste{
+    /*position: absolute;
+    condiciona ao último elemento superior ao qual pertence que não seja estático */
+  
+    position: fixed;
+    /* elemento é condicionado a ajanela do navegador, é possível manipular top e left */
+    
+    /*left: 100px; desloca 100 pixels (100px) para a direita (left) a partir do ponto de origem à esquerda */
+    /* right:0; desloca a uma distancia de n pixels pra esquerda (right)*/
+    /*bottom:0; desloca a uma distancia de n pixels para cima  */    
+    /* top: 100px; desloca 100 pixels para baixo a partir do ponto de origem no topo */
+    background: red;
+    width: 100%;
+    height:65px;
+    top:0;
+
+}
+
+p{
+    background: purple;
+    height: 1000px;
+    
+}
