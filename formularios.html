@@ -9,31 +9,54 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <label for="name">Nome:</label><br>
-        <input type="text" name="name" id="name"><br>
-        <label for="password">Senha:</label><br>
-        <input type="password" name="password" id="password"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" name="email" id="email"><br><br>
-        <label for="file">Arquivo:</label><br><br>
-        <input type="file" name="file" id="file"><br><br>
-        <p>Gênero: </p>
-        <input type="radio" name="gender" id="female" value="female">
-        <label for="female">Mulher</label> <br>
-        <input type="radio" name="gender" id="male" value="male">
-        <label for="male">Homem</label><br>
-        <input type="radio" name="gender" id="heli" value="heli">
-        <label for="heli">Helicóptero de combate</label><br><br>
-        <!--os três inputs pertengem ao mesmo logo, ou seja, ao mesmo grupo;
-        por isso spomente uma opção será selecionada por vez-->
-        <input type="checkbox" name="agree" id="agree"></label>
-        <label for="agree">Concordo com os termos</label><br>
+    <div class="form-container">
+    <form>        
+    <!-- <div class="imagem">    
+        <img src="" alt="">
+    </div> -->
+    <h3>SIGN IN</h3>
+        <div class="input-container">
+            <input type="text" placeholder="User Name">
+            <i data-feather="user"></i>
+        </div>
+        
+        <div class="input-container">
+            <input type="password" placeholder="Password">
+            <i data-feather="lock"></i>
+        </div>
+        
+        <div class="options-container">
+            <div class="checkbox-container">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Remember Me</label>
+            </div><a href="google.com">Reset Password</a>
+        </div>
+        <input type="submit" value="Sign">
 
+    <p>Or Sign in with</p>
+        <div class="social-media-container">
+           
+            <div class="icon-container">
+                <i data-feather="facebook"></i>    
+            </div>
+            
+            <div class="icon-container">
+                 <i data-feather="mail"></i>    
+            </div>
+            
+            <div class="icon-container">
+                 <i data-feather="twitter"></i>    
+            </div>
+        
+        </div>
+    <hr>
+    <p class="footer">Do not have an account? <a href="google.com">Sign Up Now</a> </p>
+    
+        <script>
+            feather.replace()
+        </script>
     </form>
-    <i data-feather="mail"></i>
-    <script>
-        feather.replace()
-    </script>
+    </div>
+
 </body>
 </html>
